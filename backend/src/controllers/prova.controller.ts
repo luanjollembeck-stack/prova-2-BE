@@ -13,6 +13,7 @@ class ProvaController {
             return res.json ({ message: "Erro interno"})
         }
     }
+    
 }
 
 export const provaController = new ProvaController
